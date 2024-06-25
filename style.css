@@ -168,6 +168,24 @@ section {
 
 .section__pic-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  border: 2px solid rgb(163, 163, 163); /* Gray border */
+  border-radius: 50%; /* Circular shape */
+  overflow: hidden;
+  margin: auto;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+.about__section__pic-container {
+  display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
